@@ -1,0 +1,93 @@
+/*The positioning of links*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-image: url(/css/img/img2.jpg);
+    color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo{
+    text-align: center;
+    color: rgb(165, 165, 9);
+}
+
+.fa-solid, .fa-envelope, .fa-whatsapp{
+    color: white;
+    padding: 5px 2px 0 5px;
+}
+
+.header{
+    margin-top: 10px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.63), rgb(9, 93, 119));
+    text-align: center;
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+li{
+    margin: 20px;
+    list-style-type: none;
+}
+
+.header, ul{
+    display: flex;
+    justify-content: center;
+}
+
+li a:hover{
+    color: rgb(184, 140, 18);
+}
+
+.me{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.me, img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h1{
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: rgb(124, 64, 7);
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.p1{
+    border: 2px solid chocolate;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.63), rgb(95, 67, 5));
+    width: 40%;
+    margin-left: 30%;
+    text-justify: auto;
+}
+
+.h2{
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: rgb(124, 64, 7);
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.p2{
+    border: 2px solid chocolate;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.63), rgb(95, 67, 5));
+    width: 40%;
+    margin-left: 30%;
+    text-justify: auto;
+}
